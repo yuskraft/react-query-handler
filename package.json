@@ -1,0 +1,40 @@
+{
+  "name": "react-query-handler",
+  "version": "1.0.0",
+  "description": "A React component to handle query states with TypeScript support",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest",
+    "typecheck": "tsc --noEmit",
+    "prepare": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.0.0",
+    "rollup": "^2.79.1",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "tslib": "^2.4.0"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "query",
+    "loading-state"
+  ],
+  "author": "",
+  "license": "ISC"
+}
